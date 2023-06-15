@@ -1,0 +1,23 @@
+
+Score matrix:
+
+ 	|	0	1	2	3	4
+   	|	A	A	G	T	[END]
+---- 	+	----	----	----	----	----
+0 A	|	0 	1 	0 	0 	-2 	
+1 T	|	-2 	-1 	0 	1 	-1 	
+2[END]	|	-4 	-3 	-2 	-1 	0 	
+
+Decision matrix:
+
+ 	|	01234
+   	|	AAGT[END]
+---- 	+	-----
+0 A	|	>\\vv
+1 T	|	>>>\v
+2[END]	|	>>>>0
+
+Alignment: 
+	-A-T
+	AAGT
+Score: 0
